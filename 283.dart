@@ -11,7 +11,6 @@ class Solution {
       }
     }
 
-    // ✅ Print the result
     print(nums);
   }
 }
@@ -20,5 +19,5 @@ void main() {
   Solution sol = Solution();
 
   List<int> nums = [0, 1, 0, 3, 12];
-  sol.moveZeroes(nums);   // Output: [1, 3, 12, 0, 0]
+  sol.moveZeroes(nums);  
 }
